@@ -1,0 +1,11 @@
+ Hierarchical Organization: Using Markdown, HTML tags, or metadata to structure content with headings (
+
+
+
+
+) helps the model understand relationships between paragraphs and topics.
+Chunking Strategy: Instead of arbitrary length, structure-aware chunking breaks text by semantic boundaries (e.g., sections, paragraphs) to keep related information together.
+Multimodal/Data Separation: Separating text, images, and tables for distinct processing. Tables are often converted to HTML/Markdown, and elements are summarized before embedding to enhance retrieval quality.
+Metadata Enrichment: Associating chunks with metadata (document title, author, section) links retrieved text to its parent source, allowing for more context-aware generation. 
+YouTube
+
